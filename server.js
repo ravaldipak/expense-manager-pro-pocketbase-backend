@@ -22,12 +22,12 @@ let transporter = null;
 function initializeTransporter() {
   try {
     const smtpConfig = {
-      host: 'smtp.hostinger.com',
-      port: 465,
-      secure: true, // true for port 465, false for other ports like 587 
+      host: 'sandbox.smtp.mailtrap.io',
+      port: 2525,
+      secure: false, // true for port 465, false for other ports like 587 
       auth: {
-        user: "info@qbits9.com",
-        pass: "Dipak@2023!!"
+        user: "92e55b01bc6dbb",
+        pass: "713e83e2505302"
       }
     };
 
