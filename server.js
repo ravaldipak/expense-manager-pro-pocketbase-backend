@@ -23,8 +23,8 @@ function initializeTransporter() {
   try {
     const smtpConfig = {
       host: 'smtp.hostinger.com',
-      port: 587,
-      secure: false, // true for port 465, false for other ports like 587 
+      port: 465,
+      secure: true, // true for port 465, false for other ports like 587 
       auth: {
         user: "info@qbits9.com",
         pass: "Dipak@2023!!"
