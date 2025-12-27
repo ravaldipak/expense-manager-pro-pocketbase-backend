@@ -22,12 +22,12 @@ let transporter = null;
 function initializeTransporter() {
   try {
     const smtpConfig = {
-      host: process.env.VITE_SMTP_HOST || 'sandbox.smtp.mailtrap.io',
-      port: parseInt(process.env.VITE_SMTP_PORT) || 587,
+      host: 'smtp.hostinger.com',
+      port: 587,
       secure: false, // true for port 465, false for other ports like 587 
       auth: {
-        user: process.env.VITE_SMTP_USER,
-        pass: process.env.VITE_SMTP_PASS
+        user: "info@qbits9.com",
+        pass: "Dipak@2023!!"
       }
     };
 
